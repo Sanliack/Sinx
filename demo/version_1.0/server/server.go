@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"mmm/sinx/siface"
-	"mmm/sinx/simodel"
+	"sinx/siface"
+	"sinx/simodel"
 	"strconv"
 )
 
