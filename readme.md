@@ -1,6 +1,6 @@
 # Sinx使用说明
 
-快速开始
+## 快速开始
 
 1.client
 
@@ -115,3 +115,6 @@ SinxServer.AddRouth(101,&msg101{})
 SinServer.Serve()
 ```
 
+## 执行流程图：
+
+![Sinx流程图](.\Sinx流程图.png)

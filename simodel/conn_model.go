@@ -44,7 +44,6 @@ func (c *ConnModel) StartReader() {
 
 		pack := NewPackMsgModel()
 		msg, err := pack.UnPackMsg(box[:n])
-
 		req := RequestModel{
 			Conn: c,
 			Msg:  msg,
